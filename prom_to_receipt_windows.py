@@ -2,7 +2,7 @@ import requests
 import time
 import win32print
 
-PROM_URL = "http://192.168.1.113:9090"
+PROM_URL = "http://prometheus_server:9090"
 PRINTER_NAME = "POS-X"
 DEBUG_MODE = False  # Set to False to enable actual printing
 
