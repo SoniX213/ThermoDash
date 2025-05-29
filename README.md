@@ -1,3 +1,6 @@
+
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Platform: Linux & Windows](https://img.shields.io/badge/platform-linux%20%7C%20windows-blue)
 # ThermoDash 🧾🔥
 
 **Print Prometheus metrics on a thermal receipt printer in real time.**  
