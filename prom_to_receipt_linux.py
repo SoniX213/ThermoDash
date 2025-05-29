@@ -97,7 +97,7 @@ def print_receipt_linux(text):
         p = Usb(VENDOR_ID, PRODUCT_ID)
         p.set(align='left')
         p.text(text + "\n")
-        p.feed(5)
+        p._raw(b'\x1B\x64\x05')
         p.cut()
     except Exception as e:
         print(f"[PRINTER ERROR] {e}")
