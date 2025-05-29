@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# OS-specific
+*.swp
+*.bak
+
+# Platform-specific compiled printer drivers or cache
+*.egg-info/
+build/
+dist/
+
+# Secret config (if you ever add API tokens)
+secrets.env
+.env.local
+
+# pytest or test output (if you automate tests later)
+.cache/
+.pytest_cache/
