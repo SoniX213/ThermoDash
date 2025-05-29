@@ -2,7 +2,7 @@ import requests
 import time
 from escpos.printer import Usb
 
-PROM_URL = "http://192.168.1.113:9090"
+PROM_URL = "http://promethus_server:9090"
 DEBUG_MODE = True
 PRINTER_NAME = "POS-X"  # For reference/logging only
 VENDOR_ID = 0x0525  # <-- Replace with actual Vendor ID
